@@ -13,14 +13,14 @@ export default function PresentacionJan() {
                 />
 
                 <div className="text-center md:text-left flex flex-col justify-center w-full md:w-3/4">
-                    <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100 hover:text-indigo-800 dark:hover:text-indigo-400  transition-colors duration-300">
+                    <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100 hover:text-indigo-800 dark:hover:text-indigo-400  transition-colors duration-300">
                         Jan te Winkel
                     </h2>
 
-                    <p className="mt-0.5 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300">
+                    <p className="mt-0.5 text-lg text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300">
                         Ingeniero de Sistemas.
                     </p>
-                    <p className="mt-0.5 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300">
+                    <p className="mt-0.5 text-lg text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300">
                         Desarrollo Web.
                     </p>
 
@@ -42,7 +42,7 @@ export default function PresentacionJan() {
                     className="group hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition-all duration-500 hover:bg-[length:400%_400%] hover:shadow-2xl dark:shadow-gray-900 "
                 >
                     <div className="rounded-[10px] bg-background  p-4 sm:p-6 transition-transform duration-500 group-hover:scale-105">
-                        <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">
+                        <h3 className="text-xl font-medium text-gray-900 dark:text-gray-100">
                             Habilidades
                         </h3>
 

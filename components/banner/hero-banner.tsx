@@ -28,7 +28,7 @@ const HeroBanner = () => {
                             {/* End Title */}
 
                             <div className="mt-5 max-w-3xl">
-                                <p className="text-lg text-gray-600 dark:text-neutral-400">
+                                <p className=" mt-2 text-lg text-center text-gray-600 dark:text-neutral-400">
                                 En Codeva, combinamos creatividad y tecnología para ofrecer soluciones digitales innovadoras. Fusionamos el arte visual con el desarrollo web para crear experiencias digitales únicas.
                                 </p>
                             </div>
@@ -36,7 +36,7 @@ const HeroBanner = () => {
                             {/* Buttons */}
                             <div className="mt-8 gap-3 flex justify-center">
                                 <a
-                                    className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 dark:bg-indigo-600 text-white hover:bg-blue-700 dark:hover:bg-indigo-800 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                                    className="py-3 px-4 inline-flex items-center gap-x-2 text-s font-medium rounded-lg border border-transparent bg-blue-600 dark:bg-indigo-600 text-white hover:bg-blue-700 dark:hover:bg-indigo-800 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                                     href="#"
                                 >
                                     Proyectos

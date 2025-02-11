@@ -5,7 +5,7 @@ const Perfil = () => {
     return (
         <div id="team" className="mt-4"> 
             <div className=" gap-4 m-4 text-center">
-                <h1 className="text-2xl font-semibold text-gray-900 capitalize lg:text-3xl dark:text-white">Equipo Codeva</h1>
+                <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">Equipo Codeva</h1>
 
                 <p className=" mt-2 text-lg text-center text-gray-600 dark:text-neutral-400">
                 Somos un equipo de diseño y desarrollo web, combinando creatividad y tecnología para crear soluciones visuales y digitales efectivas.
