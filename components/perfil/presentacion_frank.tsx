@@ -34,13 +34,7 @@ export default function PresentacionFrank() {
 
                         <div className="mt-4 flex flex-wrap gap-2">
                             {[
-                                "Adobe",
-                                "Edición",
-                                "Publicidad",
-                                "Identidad Visual",
-                                "Composición",
-                                "Fotomontaje",
-                                "Redes Sociales",
+                                "Adobe", "Edición", "Publicidad", "Identidad Visual", "Composición", "Fotomontaje", "Redes Sociales",
                             ].map((skill, index) => (
                                 <span
                                     key={index}

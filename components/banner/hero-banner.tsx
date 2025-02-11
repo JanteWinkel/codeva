@@ -4,16 +4,16 @@ const HeroBanner = () => {
             <div className="relative overflow-hidden">
                 {/* Gradients */}
                 <div aria-hidden="true" className="flex absolute -top-96 start-1/2 transform -translate-x-1/2">
-                    <div className="bg-gradient-to-r from-blue-500/50 to-purple-500 blur-3xl w-[25rem] h-[44rem] rotate-[-60deg] transform -translate-x-[10rem] dark:from-violet-900/50 dark:to-purple-800"></div>
+                    <div className="bg-gradient-to-r from-blue-100/50 to-purple-100 blur-3xl w-[25rem] h-[44rem] rotate-[-60deg] transform -translate-x-[10rem] dark:from-violet-900/50 dark:to-purple-800"></div>
 
-                    <div className="bg-gradient-to-tl from-blue-200 via-blue-100 to-purple-200 blur-3xl w-[90rem] h-[50rem] rounded-full origin-top-left -rotate-12 -translate-x-[15rem] dark:from-red-900/70 dark:via-indigo-900/70 dark:to-red-900/70"></div>
+                    <div className="bg-gradient-to-tl from-blue-200 via-blue-50 to-purple-200 blur-3xl w-[90rem] h-[50rem] rounded-full origin-top-left -rotate-12 -translate-x-[15rem] dark:from-red-900/70 dark:via-indigo-900/70 dark:to-red-900/70"></div>
                 </div>
                 {/* End Gradients */}
 
                 <div className="relative z-10">
                     <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
                         <div className="max-w-2xl text-center mx-auto">
-                            <p className="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
+                            <p className="inline-block  font-medium bg-clip-text bg-gradient-to-l from-indigo-600 to-blue-500 text-transparent dark:from-indigo-400 dark:to-blue-400">
                                 Codeva
                             </p>
 
