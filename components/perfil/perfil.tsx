@@ -3,7 +3,7 @@ import PresentacionJan from "./presentacion_jan";
 
 const Perfil = () => {
     return (
-        <div id="team" className="mt-4"> 
+        <div id="team" className="mt-14"> 
             <div className=" gap-4 m-4 text-center">
                 <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">Equipo Codeva</h1>
 

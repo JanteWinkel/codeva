@@ -4,7 +4,7 @@ import ContactForm from "./formulario";
 const Contact = () => {
     return (
         <div id="contacto">
-            <div className="max-w-xl mx-auto mt-20 px-4">
+            <div className="max-w-xl mx-auto mt-8 px-4">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
                         Contáctanos
