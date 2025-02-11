@@ -1,15 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 export default function PresentacionFrank() {
     return (
-        <div className="cursor-pointer">
-            <div className="flex flex-col items-center md:flex-row md:items-stretch gap-4 m-4 p-6 bg-background rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 dark:shadow-gray-900 border">
+        <div className="cursor-pointer mt-12">
+            <div className="flex flex-col items-center md:flex-row md:items-stretch gap-6 m-4 p-6 bg-background rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 dark:shadow-gray-900 border">
                 <img
                     src="/perfil_images/foto_perfil.jpg"
                     alt="Foto de perfil de Franklin te Winkel"
                     className="aspect-square w-40 rounded-full object-cover transform transition-transform duration-300 hover:scale-105"
                 />
 
-                <div className="text-center md:text-left flex flex-col justify-center">
+                <div className="text-center md:text-left flex flex-col justify-center w-full md:w-3/4">
                     <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100 hover:text-red-800 dark:hover:text-red-400 transition-colors duration-300">
                         Franklin te Winkel
                     </h2>
@@ -21,10 +21,6 @@ export default function PresentacionFrank() {
                         Ilustración y Comunicación Visual.
                     </p>
                 </div>
-            </div>
-
-            {/* Sección de habilidades */}
-            <div className="flex justify-center items-center">
                 <article className="group hover:animate-background rounded-xl bg-gradient-to-r from-yellow-400 via-pink-500 to-red-600 p-0.5 shadow-xl transition-all duration-500 hover:bg-[length:400%_400%] hover:shadow-2xl dark:shadow-gray-900">
 
                     <div className="rounded-[10px] bg-background  p-4 sm:p-6 transition-transform duration-500 group-hover:scale-105">

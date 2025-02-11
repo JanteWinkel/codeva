@@ -101,7 +101,7 @@ const ContactForm = () => {
 
         {/* Formulario siempre visible */}
         <div className="mt-4 p-6 border border-gray-200 rounded-lg shadow-xl dark:shadow-gray-900 ">
-          <h2 className="text-xl font-semibold text-primary mb-4">Cuéntanos tu idea</h2>
+          <h2 className="text-xl font-semibold text-primary mb-4">Cuéntanos tu idea:</h2>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
@@ -110,7 +110,7 @@ const ContactForm = () => {
                 type="text"
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-blue-500 bg-background dark:text-white dark:border-gray-600 dark:focus:ring-indigo-500 dark:focus:border-blue-500"
+                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-blue-500 bg-background dark:text-white dark:border-gray-600 dark:focus:ring-indigo-500 dark:focus:border-indigo-800"
               />
             </div>
 
@@ -119,7 +119,7 @@ const ContactForm = () => {
               <textarea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-blue-500 bg-background dark:text-white dark:border-gray-600 dark:focus:ring-indigo-500 dark:focus:border-blue-500"
+                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-blue-500 bg-background dark:text-white dark:border-gray-600 dark:focus:ring-indigo-500 dark:focus:border-indigo-800"
                 rows={4}
               />
             </div>
@@ -127,7 +127,7 @@ const ContactForm = () => {
             <div className="flex justify-center">
               <button
                 type="submit"
-                className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300"
+                className="px-6 py-2 bg-blue-600 dark:bg-indigo-600 text-white rounded-md hover:bg-blue-700 dark:hover:bg-indigo-800 transition-all duration-300"
               >
                 Enviar
               </button>
