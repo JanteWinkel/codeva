@@ -44,11 +44,11 @@ export default function Presentacion() {
         <div>
             {profiles.map((profile, index) => (
                 <div key={index} className="cursor-pointer mt-12">
-                    <div className="flex flex-col items-center md:flex-row md:items-stretch gap-4 m-4 p-6 bg-background rounded-xl shadow-lg transition-shadow duration-300 dark:shadow-gray-900 border hover:border-transparent hover:shadow-transparent hover:scale-105">
+                    <div className="flex flex-col items-center md:flex-row md:items-stretch gap-4 m-4 p-6 bg-background rounded-xl shadow-lg transition duration-500 dark:shadow-gray-900 border hover:border-transparent hover:shadow-transparent dark:hover:shadow-transparent hover:scale-110 ">
                         <img
                             src={profile.image}
                             alt={`Foto de perfil de ${profile.name}`}
-                            className="aspect-square w-40 rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                            className="aspect-square w-40 rounded-full object-cover transform transition-transform duration-500 hover:scale-110"
                         />
 
                         <div className="text-center md:text-left flex flex-col justify-center w-full md:w-3/4">

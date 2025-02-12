@@ -58,7 +58,7 @@ const Servicios = () => {
                 {/* Grid */}
                 <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:items-center">
                     {servicios.map((servicio, index) => (
-                        <div key={index} className="flex flex-col border shadow-lg dark:shadow-gray-900 border-gray-200 text-center hover:border-blue-500 rounded-xl p-8 dark:border-neutral-800 group h-full hover:bg-gray-100 dark:hover:border-indigo-800 focus:outline-none focus:bg-gray-100 sm:p-6 dark:hover:bg-neutral-700/10 dark:focus:bg-neutral-500/10">
+                        <div key={index} className="flex flex-col border shadow-lg dark:shadow-gray-900 border-gray-200 text-center hover:border-blue-500 rounded-xl p-8 dark:border-neutral-800 group h-full hover:bg-gray-100 dark:hover:border-indigo-800 focus:outline-none focus:bg-gray-100 sm:p-6 dark:hover:bg-neutral-700/10 dark:focus:bg-neutral-500/10 hover:scale-110 transition-500">
                             <h4 className="font-medium text-lg text-gray-800 dark:text-neutral-200">{servicio.nombre}</h4>
                             <span className="mt-4 font-bold text-5xl text-gray-800 dark:text-neutral-200">
                                 <span className="font-bold text-3xl ">$</span>

@@ -21,7 +21,7 @@ const HeroBanner = () => {
 
                             {/* Title */}
                             <div className="mt-5  max-w-2xl mx-auto px-4"> 
-                                <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200 transition-all duration-500 hover:bg-gradient-to-r hover:from-indigo-600 hover:via-blue-500 hover:to-indigo-600 hover:text-transparent hover:bg-clip-text dark:hover:from-pink-600 dark:hover:via-purple-700 dark:hover:to-pink-700 dark:hover:bg-gradient-to-r dark:hover:text-transparent dark:hover:bg-clip-text">
+                                <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200 transition-all duration-500">
                                     Donde el diseño y el código se unen
                                 </h1>
                             </div>

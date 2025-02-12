@@ -3,8 +3,8 @@ import ContactForm from "./formulario";
 
 const Contact = () => {
     return (
-        <div id="contacto">
-            <div className="max-w-xl mx-auto mt-8 px-4">
+        <div id="contacto" className="px-4 mt-8 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="mx-auto text-center mb-10 lg:mb-8">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
                         Contáctanos
