@@ -1,4 +1,3 @@
-import PresentacionFrank from "./presentacion_frank";
 import PresentacionJan from "./presentacion_jan";
 
 const Perfil = () => {
@@ -14,9 +13,6 @@ const Perfil = () => {
             <div className=" sm:flex-row items-stretch gap-4 m-4 justify-center">
                 <div className="flex-1 max-w-3xl mx-auto">
                     <PresentacionJan />
-                </div>
-                <div className="flex-1 max-w-3xl mx-auto mt-4">
-                    <PresentacionFrank />
                 </div>
             </div>
         </div>

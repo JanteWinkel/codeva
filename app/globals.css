@@ -70,3 +70,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.visible .hover\:scale-105 {
+  transform: scale(1.05);
+}
+
+.visible .hover\:shadow-transparent {
+  box-shadow: none;
+}
+
+.visible .hover\:border-transparent {
+  border-color: transparent;
+}
