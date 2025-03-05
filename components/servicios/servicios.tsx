@@ -50,10 +50,10 @@ const servicios = [
 
 const Servicios = () => {
     return (
-        <div className="px-4 mt-16 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div id='servicios' className="px-4 mt-16 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div className="mx-auto text-center mb-10 lg:mb-8">
                 <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">Planes de Servicio</h2>
-                <p className="mt-1 text-gray-600 dark:text-neutral-400">Planes flexibles diseñados para ajustarse a las necesidades de tu negocio.</p>
+                <p className="mt-1 text-gray-600 dark:text-neutral-400 max-w-2xl text-center mx-auto">Planes flexibles diseñados para ajustarse a las necesidades de tu negocio.</p>
 
                 {/* Grid */}
                 <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:items-center">

@@ -10,8 +10,8 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-0 left-0 w-full bg-background shadow-xl z-50 flex items-center justify-between p-4 mx-auto cursor-pointer">
-            <h1 className="text-3xl text-primary" onClick={() => router.push("/")}>
-                Codeva
+            <h1 className="text-xl font-bold text-primary" onClick={() => router.push("/")}>
+                Jan te Winkel
                 
             </h1>
             <div className="items-center justify-between hidden sm:flex">

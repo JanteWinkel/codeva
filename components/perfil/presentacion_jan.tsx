@@ -22,21 +22,21 @@ const profiles = [
             { icon: <BiLogoLinkedin className="size-9 text-gray-800 mx-auto dark:text-neutral-200" />, link: "#", label: "Linkedin" },
         ],
     },
-    {
-        name: "Franklin te Winkel",
-        role: "Diseñador Gráfico",
-        specialty: "Ilustración y Comunicación Visual",
-        image: "/perfil_images/foto_perfil.jpg",
-        gradient: "from-yellow-400 via-pink-500 to-red-600",
-        skills: {
-            list: ["Adobe", "Edición", "Publicidad", "Identidad Visual", "Composición", "Fotomontaje", "Redes Sociales"],
-            bgLight: "bg-orange-100",
-            bgDark: "dark:bg-red-950",
-            hoverLight: "hover:bg-orange-200",
-            hoverDark: "dark:hover:bg-red-700",
-        },
-        social: [],
-    },
+    // {
+    //     name: "Franklin te Winkel",
+    //     role: "Diseñador Gráfico",
+    //     specialty: "Ilustración y Comunicación Visual",
+    //     image: "/perfil_images/foto_perfil.jpg",
+    //     gradient: "from-yellow-400 via-pink-500 to-red-600",
+    //     skills: {
+    //         list: ["Adobe", "Edición", "Publicidad", "Identidad Visual", "Composición", "Fotomontaje", "Redes Sociales"],
+    //         bgLight: "bg-orange-100",
+    //         bgDark: "dark:bg-red-950",
+    //         hoverLight: "hover:bg-orange-200",
+    //         hoverDark: "dark:hover:bg-red-700",
+    //     },
+    //     social: [],
+    // },
 ];
 
 export default function Presentacion() {

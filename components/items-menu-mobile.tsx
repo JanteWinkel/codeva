@@ -21,20 +21,20 @@ const ItemsMenuMobile = () => {
                     onClick={() => handleSmoothScroll("team")}
                     className="block text-primary m-1 w-full text-left"
                 >
-                    Equipo
+                    Sobre mí
                 </button>
                 <button
-                    onClick={() => handleSmoothScroll("calendario")}
+                    onClick={() => handleSmoothScroll("proyectos")}
                     className="block text-primary m-1 w-full text-left"
                 >
-                    Proyecto
+                    Proyectos
                 </button>
-                <button
-                    onClick={() => handleSmoothScroll("eventos")}
+                {/* <button
+                    onClick={() => handleSmoothScroll("servicios")}
                     className="block text-primary m-1 w-full text-left"
                 >
                     Servicios
-                </button>
+                </button> */}
                 <button
                     onClick={() => handleSmoothScroll("contacto")}
                     className="block text-primary m-1 w-full text-left"

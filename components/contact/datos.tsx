@@ -5,15 +5,15 @@ const contactOptions = [
     {
         id: 1,
         name: "Whatsapp",
-        description: "Si necesitas ayuda o más información, ¡no dudes en escribirnos!",
+        description: "Si necesitas ayuda o más información, ¡no dudes en escribirme!",
         link: "https://wa.me/+584125308748",
-        buttonText: "Escríbenos por Whatsapp",
+        buttonText: "Haz tus consultas por Whatsapp",
         icon: <BiLogoWhatsapp className="size-10 text-gray-800 mx-auto dark:text-neutral-200" />
     },
     {
         id: 2,
         name: "Correo",
-        description: "Estamos aquí para ayudarte. Mándanos tu correo y te responderemos en breve.",
+        description: "Por favor, envíame tu correo y te responderé lo antes posible.",
         link: "mailto:janpaultewinkeljimenez@gmail.com",
         buttonText: "Redactar mensaje",
         icon: <BiEnvelope className="size-10 text-gray-800 mx-auto dark:text-neutral-200" />
@@ -21,9 +21,9 @@ const contactOptions = [
     {
         id: 3,
         name: "Telegram",
-        description: "Haz tus consultas por Telegram. ¡Estamos para ayudarte!",
+        description: "No dudes en contactarme por Telegram para cualquier consulta. ",
         link: "https://t.me/+584125308748",
-        buttonText: "Escríbenos por Telegram",
+        buttonText: "Contáctame por Telegram",
         icon: <BiLogoTelegram className="size-10 text-gray-800 mx-auto dark:text-neutral-200" />
     }
 ];

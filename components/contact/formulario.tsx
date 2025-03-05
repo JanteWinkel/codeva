@@ -37,7 +37,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="mt-2 hover:animate-background rounded-xl hover:border-indigo-500 max-w-lg mx-auto ">
+    <div className=" hover:animate-background rounded-xl hover:border-indigo-500 max-w-lg mx-auto ">
       <div className="rounded-[10px]  dark:border-gray-600 p-4 ">
 
         {/* Mostrar el mensaje de alerta */}
@@ -101,7 +101,7 @@ const ContactForm = () => {
 
         {/* Formulario siempre visible */}
         <div className="mt-4 p-6 border border-gray-200 rounded-lg shadow-xl dark:shadow-gray-900 ">
-          <h2 className="text-xl font-semibold text-primary mb-4">Cuéntanos tu idea:</h2>
+          <h2 className="text-xl font-semibold text-primary mb-4">Háblame sobre tu idea:</h2>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>

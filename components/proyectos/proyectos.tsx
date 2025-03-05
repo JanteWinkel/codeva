@@ -16,14 +16,14 @@ const cardsData: CardData[] = [
         id: 1,
         title: 'Desarrollo de E-commerce para MuySochi',
         description: 'El proyecto resultó en un e-commerce elegante y funcional, alineado con las expectativas de los usuarios modernos y preparado para crecer con el negocio.',
-        imageUrl: 'https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        imageUrl: '/projects/ecommerce foto.jpg',
         tags: ['Next.js', 'PostgreSQL', 'Strapi'],
     },
     {
         id: 2,
         title: 'Web del Condominio Terrazas de Vista Azul',
         description: 'Este portal web es una herramienta esencial para la gestión del condominio, facilitando la comunicación y mejorando la organización y la calidad de vida de los residentes.',
-        imageUrl: 'https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        imageUrl: '/projects/gestion 1.jpg',
         tags: ['Next.js', 'Formspree', 'OpenWeatherMap'],
     },
 ];
@@ -36,9 +36,9 @@ const CardGrid: React.FC = () => {
                     <div key={card.id} className="group flex flex-col focus:outline-none mt-2">
                         <a href="#" className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out">
                             <img
-                                className="object-cover rounded-2xl"
+                                className="object-cover rounded-2xl w-full h-48"
                                 src={card.imageUrl}
-                                alt="Blog Image"
+                                alt="Imagen del proyecto"
                             />
                         </a>
 
