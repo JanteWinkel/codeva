@@ -19,7 +19,7 @@ const profiles = [
         social: [
             { icon: <BiLogoWhatsapp className="size-9 text-gray-800 mx-auto dark:text-neutral-200" />, link: "https://wa.me/+584125308748", label: "Whatsapp" },
             { icon: <BiLogoGithub className="size-9 text-gray-800 mx-auto dark:text-neutral-200" />, link: "https://github.com/JanteWinkel", label: "Github" },
-            { icon: <BiLogoLinkedin className="size-9 text-gray-800 mx-auto dark:text-neutral-200" />, link: "#", label: "Linkedin" },
+            { icon: <BiLogoLinkedin className="size-9 text-gray-800 mx-auto dark:text-neutral-200" />, link: "https://www.linkedin.com/in/jan-paul-te-winkel-a98b28315/", label: "Linkedin" },
         ],
     },
     // {
