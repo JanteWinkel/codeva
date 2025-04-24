@@ -8,6 +8,7 @@ interface CardData {
     description: string;
     imageUrl: string;
     tags: string[];
+    url?: string;
 }
 
 // Arreglo con la información de las tarjetas
@@ -18,6 +19,7 @@ const cardsData: CardData[] = [
         description: 'El proyecto resultó en un e-commerce elegante y funcional, alineado con las expectativas de los usuarios modernos y preparado para crecer con el negocio.',
         imageUrl: '/projects/ecommerce foto.jpg',
         tags: ['Next.js', 'PostgreSQL', 'Strapi'],
+        url: "https://ecommerce-sochi.vercel.app/",
     },
     {
         id: 2,
@@ -25,6 +27,7 @@ const cardsData: CardData[] = [
         description: 'Este portal web es una herramienta esencial para la gestión del condominio, facilitando la comunicación y mejorando la organización y la calidad de vida de los residentes.',
         imageUrl: '/projects/gestion 1.jpg',
         tags: ['Next.js', 'Formspree', 'OpenWeatherMap'],
+        url: "https://www.terrazasdevistaazul.com/",
     },
 ];
 
@@ -34,7 +37,7 @@ const CardGrid: React.FC = () => {
             <div className="p-4 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-6 md:gap-8 lg:gap-12">
                 {cardsData.map((card) => (
                     <div key={card.id} className="group flex flex-col focus:outline-none mt-2">
-                        <a href="#" className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out">
+                        <a href={card.url} className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out">
                             <img
                                 className="object-cover rounded-2xl w-full h-48"
                                 src={card.imageUrl}
